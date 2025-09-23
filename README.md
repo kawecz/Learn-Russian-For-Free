@@ -7,4 +7,4 @@ I re-created this app design using React as a form of practice and studying.
 <img src="public/learnrussianforfree_ofc.png" alt="Oficial Page">
 
 # My version - <a href = "https://kawecz.github.io/Learn-Russian-For-Free/">Learn Russian for Free</a>
-<img src ="public/learrussianforfree.png" alt="My Project Image">
+<img src ="public/learnrussianforfree.png" alt="My Project Image">
