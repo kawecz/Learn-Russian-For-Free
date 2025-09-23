@@ -1,12 +1,9 @@
-# React + Vite
+# Learn Russian For Free
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a free webpage on the internet for learning Russian.
+I re-created this app design using React as a form of practice and studying. 
 
-Currently, two official plugins are available:
+# This is the original page - <a href = "https://www.russianforfree.com/">Learn Russian for Free</a>
+<img src="public/learnrussianforfree_ofc.png" alt="My Project Image">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# My version - <a href = "https://kawecz.github.io/Learn-Russian-For-Free/">Learn Russian for Free</a>
