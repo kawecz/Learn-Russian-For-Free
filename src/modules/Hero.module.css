@@ -1,0 +1,49 @@
+hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 4em;
+  text-align: justify;
+  transition: ease-in-out 1s;
+  border-bottom: 1px solid black;
+  padding-bottom: 15em;
+  margin-top: 5em;
+}
+
+p {
+  margin-top: 5em;
+  font-size: 14pt;
+}
+
+.firstDiv {
+  max-width: 350px;
+}
+
+h1 {
+  line-height: 0.2;
+}
+
+.firstHeading {
+  font-size: 50pt;
+  position: relative;
+  left: -2em;
+  transition: ease-in-out 1s;
+}
+.secondHeading {
+  font-size: 50pt;
+  background: rgb(60, 60, 156);
+  position: relative;
+  padding: 0.9em;
+  max-width: 200px;
+  height: 20px;
+  color: #fff;
+  transition: ease-in-out 2s;
+  border-radius: 1em;
+}
+.thirdHeading {
+  font-size: 50pt;
+  position: relative;
+  right: -2em;
+  transition: ease-in-out 3s;
+}

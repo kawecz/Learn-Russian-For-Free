@@ -1,0 +1,36 @@
+header {
+  color: black; 
+  border-bottom: 1px solid #231F20;
+  transition: ease-in-out 1.2s;
+}
+
+header > nav > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  font-weight: 600; 
+}
+
+img {
+  max-width: 420px;
+  transition: ease-in-out 1s;
+}
+
+h2 {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 2em;
+  margin-top: 2em;
+  padding-bottom: 10em;
+  flex-wrap: wrap;
+}

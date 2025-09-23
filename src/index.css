@@ -1,0 +1,14 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --color1:#EEE6D9;
+  --color2:#231F20;
+  --color3:#77101C;
+}
+
+* {
+  background:#fff;
+  list-style: none;
+}
