@@ -29,6 +29,9 @@ h1 {
   position: relative;
   left: -2em;
   transition: ease-in-out 1s;
+  border: 1px solid black;
+  padding: 0.8em;
+  border-radius: 1em;
 }
 .secondHeading {
   font-size: 50pt;
@@ -46,4 +49,12 @@ h1 {
   position: relative;
   right: -2em;
   transition: ease-in-out 3s;
+  background: rgb(156, 60, 60);
+  padding: 0.8em;
+  border-radius: 1em;
+  color: #fff;
+}
+
+.img {
+  margin-left: 4em;
 }

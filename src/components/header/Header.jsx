@@ -6,7 +6,7 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <button className={Button_styles.button}>Home</button>
+            <button className={Button_styles.act}>Home</button>
           </li>
           <li>
             <button className={Button_styles.button}>Free Russian Courses</button>

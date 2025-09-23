@@ -7,6 +7,7 @@
   border-radius: 2em;
   transition: ease-in-out 1s;
   font-weight: 500;
+  height: 80px;
 }
 .button:hover {
   background: #231f20;
@@ -18,9 +19,23 @@
 }
 
 .act {
-  background: rgb(60, 60, 156);
-  border: 1px solid #231f20;
+   background: rgb(60, 60, 156);
+  border: 1px solid rgb(60, 60, 156);;
   color: #fff;
+  padding: 1.5em;
+  border-radius: 2em;
+  transition: ease-in-out 1s;
+  font-weight: 500;
+  cursor: pointer;
+  height: 80px;
+}
+.act:hover {
+   background: #231f20;
+  border: 1px solid rgb(109, 109, 255);
+  box-shadow: 0px 0px 15px rgba(58, 95, 143, 0.699);
+  color: #fff;
+  transform: scale(1.1);
+  transition: ease-in-out 0.9s;
 }
 
 .shop {
@@ -40,4 +55,5 @@
   color: #fff;
   transform: scale(1.1);
   transition: ease-in-out 0.9s;
+  height: 80px;
 }
