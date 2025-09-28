@@ -1,0 +1,10 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+}
+
+div_footer{
+    max-width: 250px;
+    background: black;
+}

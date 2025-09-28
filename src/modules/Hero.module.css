@@ -11,48 +11,58 @@ hero {
   margin-top: 5em;
 }
 
-p {
+hero p {
   margin-top: 5em;
   font-size: 14pt;
+}
+
+.secondHeading  h1 {
+  background: rgb(60, 60, 156);
+  color: #fff;
+}
+
+.thirdHeading h1 {
+  color: #fff;
+  background: rgb(156, 60, 60);
 }
 
 .firstDiv {
   max-width: 350px;
 }
 
-h1 {
-  line-height: 0.2;
-}
-
 .firstHeading {
-  font-size: 50pt;
   position: relative;
-  left: -2em;
+  left: -10em;
   transition: ease-in-out 1s;
-  border: 1px solid black;
-  padding: 0.8em;
-  border-radius: 1em;
+  border: 1.1px solid black;
+  border-top-right-radius: 2em;
+  margin: 1em auto 2em;
+  padding: 1em;
+  text-align: center;
+  width: 300px;
+  box-shadow: 10px 10px 20px rgba(21, 21, 21, 0.173);
 }
 .secondHeading {
-  font-size: 50pt;
+  text-align: center;
+  margin: 1em auto 2em;
   background: rgb(60, 60, 156);
+  box-shadow: 10px 10px 20px rgba(20, 20, 46, 0.516);
+   border-top-right-radius: 2em;
   position: relative;
-  padding: 0.9em;
-  max-width: 200px;
-  height: 20px;
-  color: #fff;
+  width: 300px;
   transition: ease-in-out 2s;
-  border-radius: 1em;
+  padding: 1em;
 }
 .thirdHeading {
-  font-size: 50pt;
+  text-align: center;
   position: relative;
-  right: -2em;
+  right: -10em;
   transition: ease-in-out 3s;
+   border-top-right-radius: 2em;
   background: rgb(156, 60, 60);
+  box-shadow: 10px 10px 20px rgba(76, 29, 29, 0.495);
   padding: 0.8em;
-  border-radius: 1em;
-  color: #fff;
+  width: 300px;
 }
 
 .img {

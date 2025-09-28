@@ -7,9 +7,17 @@ function Hero() {
   return (
     <hero className={styles.hero}>
       <div className={styles.firstDiv}>
-        <h1 className={styles.firstHeading}>Learn </h1>
-        <h1 className={styles.secondHeading}> Russian</h1>
-        <h1 className={styles.thirdHeading}>for free</h1>
+
+        <div className={styles.firstHeading}>
+          <h1 >Learn </h1>
+        </div>
+        <div className={styles.secondHeading}>
+          <h1 > Russian</h1>
+        </div>
+        <div className={styles.thirdHeading}>
+          <h1 >for free</h1>
+          
+        </div>
 
         <p>
           If you love the Russian language and you want to study it online, this

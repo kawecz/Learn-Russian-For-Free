@@ -22,6 +22,7 @@ function Main() {
     "https://www.russianforfree.com/resources/pics_icons/icon-test.png";
 
   //end
+  const img = "https://www.russianforfree.com/resources/art_banners_ads/banner_russian_sistema_kalinka_books_900x200.png"
 
   return (
     <>
@@ -64,60 +65,73 @@ function Main() {
         </div>
         <div className={styles.cards}>
           <img src={card4} alt="" className={styles.img} />
-          <h3>Texts and dialogues with audio</h3>
+          <h3>Russian grammar and exercises</h3>
           <p>
-            Read and listen to texts in Russian with audio, graded by level and
-            with English translations.
+            Learn and practice here: Videos, grammar tables and exercises with hundreds of questions.
           </p>
-          <button className={Button_styles.button}>Russian for tourist</button>
-          <button className={Button_styles.button}>Russian for parents</button>
-          <button className={Button_styles.button}>Russian for lovers</button>
+          <button className={Button_styles.button}>Videos: vocabulary + grammar</button>
+          <button className={Button_styles.button}>Grammar tables</button>
+          <button className={Button_styles.button}>Vocabulary Exercises</button>
+          <button className={Button_styles.button}>Grammar Exercises</button>
         </div>
         <div className={styles.cards}>
           <img src={card5} alt="" className={styles.img} />
-          <h3>Texts and dialogues with audio</h3>
+          <h3>More resources to learn Russian</h3>
           <p>
-            Read and listen to texts in Russian with audio, graded by level and
-            with English translations.
+            We have put together all kinds of ideas to help you practice and improve your Russian.
           </p>
-          <button className={Button_styles.button}>Russian for tourist</button>
-          <button className={Button_styles.button}>Russian for parents</button>
-          <button className={Button_styles.button}>Russian for lovers</button>
+          <button className={Button_styles.button}>Russian Music</button>
+          <button className={Button_styles.button}>Cartoons in Russian</button>
+          <button className={Button_styles.button}>Comics in Russian</button>
+          <button className={Button_styles.button}>Podcasts in Russian</button>
+          <button className={Button_styles.button}>The Russian Alphabet</button>
+          <button className={Button_styles.button}> Questions and Answers</button>
         </div>
         <div className={styles.cards}>
           <img src={card6} alt="" className={styles.img} />
-          <h3>Texts and dialogues with audio</h3>
+          <h3>Shop: Russian courses and books</h3>
           <p>
-            Read and listen to texts in Russian with audio, graded by level and
-            with English translations.
+            In addition to our free resources, we also sell the best books and courses for Russian learners.
           </p>
-          <button className={Button_styles.button}>Russian for tourist</button>
-          <button className={Button_styles.button}>Russian for parents</button>
-          <button className={Button_styles.button}>Russian for lovers</button>
+          <button className={Button_styles.button}>Shop</button>
+          
         </div>
         <div className={styles.cards}>
           <img src={card7} alt="" className={styles.img} />
-          <h3>Texts and dialogues with audio</h3>
+          <h3>Contact us / Report any error</h3>
           <p>
-            Read and listen to texts in Russian with audio, graded by level and
-            with English translations.
+            Do you want to contact us? Do you want to report an error in our web? Please do it here.
           </p>
-          <button className={Button_styles.button}>Russian for tourist</button>
-          <button className={Button_styles.button}>Russian for parents</button>
-          <button className={Button_styles.button}>Russian for lovers</button>
+          <button className={Button_styles.button}>Contact Us</button>
         </div>
         <div className={styles.cards}>
           <img src={card8} alt="" className={styles.img} />
-          <h3>Texts and dialogues with audio</h3>
+          <h3>Free online Russian test</h3>
           <p>
-            Read and listen to texts in Russian with audio, graded by level and
-            with English translations.
+            Check your level of Russian!
           </p>
-          <button className={Button_styles.button}>Russian for tourist</button>
-          <button className={Button_styles.button}>Russian for parents</button>
-          <button className={Button_styles.button}>Russian for lovers</button>
+          <button className={Button_styles.button}>Online Test</button>
         </div>
       </main>
+       <div className={styles.sectionInfo}>
+        
+              <h2>Why Learning Russian?</h2>
+      
+          
+            <p>Because it's the 5th most spoken language in the world by total number of speaker. If we take into account only native speakers (144 million native speakers in Russia, Belarus, Ukraine and other countries), it is the 8th in the world. All in all, Russian is more spoken than many other popular languages such as French, German or Japanese. Another reason to learn this language is because major sports events take place in Russia. Apart from that, the Russian Federation is the 6th largest economy in the world. There are many reasons, you only have to choose one!</p>
+        </div>
+         <div className={styles.sectionInfo}>
+          
+              <h2>Where is Russian spoken?</h2>
+      
+            
+            <p>All around the world. It's a Slavic language spoken in Russia, Belarus, Ukraine, Kazakhstan, Kyrgyzstan and other ex-republics of the USSR. Also it's one of the only 6 official languages of the United Nations, and countries such as the United States or Germany are home to millions of Russian speakers.
+            Why would you like to learn Russian? Are you travelling to Russia or Ukraine? Do you love learning languages? Whatever the reason, learn Russian with us. We have developed this website to help you learn this wonderful and powerful language. If you like our website, please share it.</p>
+        </div>
+
+        <div className={styles.books}>
+          <img src={img} />
+        </div>
     </>
   );
 }
