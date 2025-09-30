@@ -26,7 +26,9 @@ function Main() {
 
   return (
     <>
-      <h2>Our resources to learn Russian for free</h2>
+      <div className={styles.div_main}>
+        <h2>Our resources to learn Russian for free</h2>
+      </div>
 
       <main className={styles.resource}>
         <div className={styles.cards}>
@@ -96,7 +98,7 @@ function Main() {
           <button className={Button_styles.button}>Shop</button>
           
         </div>
-        <div className={styles.cards}>
+        <div className={styles.card7}>
           <img src={card7} alt="" className={styles.img} />
           <h3>Contact us / Report any error</h3>
           <p>
@@ -104,25 +106,29 @@ function Main() {
           </p>
           <button className={Button_styles.button}>Contact Us</button>
         </div>
-        <div className={styles.cards}>
+        <div className={styles.card8}>
           <img src={card8} alt="" className={styles.img} />
           <h3>Free online Russian test</h3>
           <p>
             Check your level of Russian!
           </p>
-          <button className={Button_styles.button}>Online Test</button>
+          <button className={Button_styles.button8}>Online Test</button>
         </div>
       </main>
        <div className={styles.sectionInfo}>
         
-              <h2>Why Learning Russian?</h2>
+              <div className={styles.sectionInfoDiv}>
+                <h2>Why Learning Russian?</h2>
+              </div>
       
           
             <p>Because it's the 5th most spoken language in the world by total number of speaker. If we take into account only native speakers (144 million native speakers in Russia, Belarus, Ukraine and other countries), it is the 8th in the world. All in all, Russian is more spoken than many other popular languages such as French, German or Japanese. Another reason to learn this language is because major sports events take place in Russia. Apart from that, the Russian Federation is the 6th largest economy in the world. There are many reasons, you only have to choose one!</p>
         </div>
          <div className={styles.sectionInfo}>
           
-              <h2>Where is Russian spoken?</h2>
+              <div className={styles.sectionInfoDiv2}>
+                <h2>Where is Russian spoken?</h2>
+              </div>
       
             
             <p>All around the world. It's a Slavic language spoken in Russia, Belarus, Ukraine, Kazakhstan, Kyrgyzstan and other ex-republics of the USSR. Also it's one of the only 6 official languages of the United Nations, and countries such as the United States or Germany are home to millions of Russian speakers.

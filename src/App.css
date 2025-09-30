@@ -19,18 +19,3 @@ img {
   transition: ease-in-out 1s;
 }
 
-h2 {
-  text-align: center;
-}
-
-main {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  gap: 2em;
-  margin-top: 2em;
-  padding-bottom: 10em;
-  flex-wrap: wrap;
-}
