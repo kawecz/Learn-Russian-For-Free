@@ -16,7 +16,7 @@ hero p {
   font-size: 14pt;
 }
 
-.secondHeading  h1 {
+.secondHeading h1 {
   background: rgb(60, 60, 156);
   color: #fff;
 }
@@ -40,14 +40,14 @@ hero p {
   padding: 1em;
   text-align: center;
   width: 300px;
-  box-shadow: 10px 10px 20px rgba(21, 21, 21, 0.173);
+  box-shadow: 10px 10px 0px rgba(21, 21, 21, 0.173);
 }
 .secondHeading {
   text-align: center;
   margin: 1em auto 2em;
   background: rgb(60, 60, 156);
-  box-shadow: 10px 10px 20px rgba(20, 20, 46, 0.516);
-   border-top-right-radius: 2em;
+  box-shadow: 10px 10px 0px rgba(20, 20, 129, 0.516);
+  border-top-right-radius: 2em;
   position: relative;
   width: 300px;
   transition: ease-in-out 2s;
@@ -58,9 +58,9 @@ hero p {
   position: relative;
   right: -10em;
   transition: ease-in-out 3s;
-   border-top-right-radius: 2em;
+  border-top-right-radius: 2em;
   background: rgb(156, 60, 60);
-  box-shadow: 10px 10px 20px rgba(76, 29, 29, 0.495);
+  box-shadow: 10px 10px 0px rgba(76, 29, 29, 0.495);
   padding: 0.8em;
   width: 300px;
 }

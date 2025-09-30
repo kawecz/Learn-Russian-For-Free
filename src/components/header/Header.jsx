@@ -27,7 +27,7 @@ function Header() {
             <button className={Button_styles.button}>Contact Us</button>
           </li>
           <li>
-            <button className={Button_styles.shop}>
+            <button className={Button_styles.act}>
               Shop: Books & Courses
             </button>
           </li>

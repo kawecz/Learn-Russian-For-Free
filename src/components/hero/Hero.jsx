@@ -7,16 +7,14 @@ function Hero() {
   return (
     <hero className={styles.hero}>
       <div className={styles.firstDiv}>
-
         <div className={styles.firstHeading}>
-          <h1 >Learn </h1>
+          <h1>Learn </h1>
         </div>
         <div className={styles.secondHeading}>
-          <h1 > Russian</h1>
+          <h1> Russian</h1>
         </div>
         <div className={styles.thirdHeading}>
-          <h1 >for free</h1>
-          
+          <h1>for free</h1>
         </div>
 
         <p>

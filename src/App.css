@@ -1,6 +1,6 @@
 header {
-  color: black; 
-  border-bottom: 1px solid #231F20;
+  color: black;
+  border-bottom: 1px solid #231f20;
   transition: ease-in-out 1.2s;
 }
 
@@ -11,11 +11,10 @@ header > nav > ul {
   align-items: center;
   justify-content: center;
   padding: 1em;
-  font-weight: 600; 
+  font-weight: 600;
 }
 
 img {
   max-width: 420px;
   transition: ease-in-out 1s;
 }
-
