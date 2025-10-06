@@ -16,18 +16,10 @@ hero p {
   font-size: 14pt;
 }
 
-.secondHeading h1 {
-  background: rgb(60, 60, 156);
-  color: #fff;
-}
-
-.thirdHeading h1 {
-  color: #fff;
-  background: rgb(156, 60, 60);
-}
-
 .firstDiv {
   max-width: 350px;
+  display: flex;
+  flex-direction: column;
 }
 
 .firstHeading {
@@ -52,6 +44,7 @@ hero p {
   width: 300px;
   transition: ease-in-out 2s;
   padding: 1em;
+  color: #fff;
 }
 .thirdHeading {
   text-align: center;
@@ -63,8 +56,140 @@ hero p {
   box-shadow: 10px 10px 0px rgba(76, 29, 29, 0.495);
   padding: 0.8em;
   width: 300px;
+  color: #fff;
 }
 
 .img {
-  margin-left: 4em;
+  position: relative;
+  left: 10em;
+  top: -2em;
 }
+
+/* MEDIA QUERIES FOR HERO */
+
+/*Ipad Pro 13 - 2048 x 2732*/
+
+@media (max-width: 2050px) {
+  .firstHeading {
+    position: relative;
+    left: -3em;
+    transition: ease-in-out 1s;
+    border: 1.1px solid black;
+    border-top-right-radius: 2em;
+    margin: 1em auto 2em;
+    padding: 1em;
+    text-align: center;
+    width: 300px;
+    box-shadow: 10px 10px 0px rgba(21, 21, 21, 0.173);
+  }
+
+  .secondHeading {
+    right: -5em;
+  }
+  .thirdHeading {
+    right: -15em;
+  }
+
+  .img {
+    left: 5em;
+  }
+
+  hero > p {
+  }
+}
+
+/*END ipad pro 13*/
+
+/* START ipad pro 11*/
+@media (max-width: 950px) {
+  .firstHeading {
+    left: 0em;
+    width: 200px;
+  }
+
+  .secondHeading {
+    right: -5em;
+    width: 200px;
+  }
+  .thirdHeading {
+    right: -15em;
+    width: 200px;
+  }
+
+  hero p {
+    margin-top: 0em;
+    font-size: 20pt;
+    padding: 5em;
+    width: 790px;
+  }
+
+  .img {
+    position: relative;
+    top: -12em;
+    left: 1em;
+  }
+  .img img {
+    width: 350px;
+  }
+}
+
+/* END  ipad pro 11*/
+
+/* START  ipad mini 4*/
+@media (max-width: 770px) {
+  .firstDiv {
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .firstHeading {
+    left: 0em;
+    width: 450px;
+  }
+  .secondHeading {
+    left: 0;
+    width: 450px;
+  }
+  .thirdHeading {
+    right: 0em;
+    width: 450px;
+  }
+
+  hero p {
+    padding: 0;
+    margin-top: 2em;
+    width: 450px;
+  }
+  .img {
+    display: none;
+  }
+}
+/* END  ipad mini 4*/
+
+/* START  iPhone 14 pro max - 430 x 932*/
+@media (max-width: 500px) {
+  .firstHeading {
+    border-radius: 2em;
+    width: 350px;
+  }
+  .secondHeading {
+    border-radius: 2em;
+    width: 350px;
+  }
+  .thirdHeading {
+    border-radius: 2em;
+    width: 350px;
+  }
+
+  hero p {
+    margin-top: 3em;
+    font-size: 16pt;
+    max-width: 350px;
+  }
+
+}
+
+/* END  iPhone 14 pro max*/
