@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import styles from '../../modules/Footer.module.css'
+import styles from '../modules/Footer.module.css'
 
 function Footer() {
     const img_footer = "https://www.russianforfree.com/resources/share-newsletter.png"

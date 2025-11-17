@@ -1,20 +1,7 @@
-header {
-  color: black;
-  border-bottom: 1px solid #231f20;
-  transition: ease-in-out 1.2s;
-}
-
-header > nav > ul {
-  display: flex;
-  flex-direction: row;
-  gap: 2em;
-  align-items: center;
-  justify-content: center;
-  padding: 1em;
-  font-weight: 600;
-}
-
+/* Remove os estilos do header do App.css e mantenha apenas estilos globais */
 img {
   max-width: 420px;
   transition: ease-in-out 1s;
 }
+
+/* Estilos globais podem ficar aqui */

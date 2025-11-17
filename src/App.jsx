@@ -1,8 +1,9 @@
 import "./App.css";
-import Header from "./components/header/Header";
-import Hero from "./components/hero/Hero";
-import Main from "./components/main/Main";
-import Footer from "./components/footer/Footer";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
+
 
 function App() {
   return (

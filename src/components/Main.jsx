@@ -1,5 +1,5 @@
-import styles from "../../modules/Main.module.css";
-import Button_styles from "../../modules/Main.module.css";
+import styles from "../modules/Main.module.css";
+import Button_styles from "../modules/Main.module.css";
 
 function Main() {
   //adding the image cards through urls

@@ -1,0 +1,18 @@
+.burger {
+    cursor: pointer;
+    display: none;
+}
+
+.line1,.line2,.line3 {
+    width: 37px;
+    height: 3px;
+    background: #000;
+    margin-top: 0.5em;
+}
+
+
+@media (max-width:550px) {
+   .burger {
+    display: block;
+  }
+}

@@ -8,7 +8,7 @@
   transition: ease-in-out 1s;
   font-weight: 500;
   font-size: 10pt;
-  height: 70px;
+  height: 90px;
   width: 120px;
 }
 .button:hover {
@@ -30,7 +30,7 @@
   transition: ease-in-out 1s;
   font-weight: 500;
   cursor: pointer;
-  height: 70px;
+  height: 90px;
   width: 120px;
 }
 .act:hover {
@@ -41,3 +41,4 @@
   transform: scale(1.1);
   transition: ease-in-out 0.9s;
 }
+

@@ -1,4 +1,4 @@
-import styles from "../../modules/Hero.module.css";
+import styles from "../modules/Hero.module.css";
 
 function Hero() {
   const url =
