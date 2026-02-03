@@ -1,18 +1,35 @@
 .burger {
-    cursor: pointer;
-    display: none;
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 170px;
+  z-index: 1001;
 }
 
-.line1,.line2,.line3 {
-    width: 37px;
-    height: 3px;
-    background: #000;
-    margin-top: 0.5em;
+.line1, .line2, .line3 {
+  width: 37px;
+  height: 3px;
+  background: #000;
+  margin: 6px 0;
+  transition: 0.4s;
 }
 
+/* Burger animation when active */
+.burger.active .line1 {
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
 
-@media (max-width:550px) {
-   .burger {
+.burger.active .line2 {
+  opacity: 0;
+}
+
+.burger.active .line3 {
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+@media (max-width: 550px) {
+  .burger {
     display: block;
   }
 }

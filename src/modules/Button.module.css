@@ -1,44 +1,32 @@
-.button {
-  background: #fff;
-  color: #231f20;
-  cursor: pointer;
-  border: 1px solid #231f20;
-  padding: 1em;
+
+.button, .act {
+  padding: 0.8em 1.5em;
   border-radius: 2em;
-  transition: ease-in-out 1s;
-  font-weight: 500;
-  font-size: 10pt;
-  height: 90px;
-  width: 120px;
-}
-.button:hover {
-  background: #231f20;
-  border: 1px solid rgb(109, 109, 255);
-  box-shadow: 0px 0px 15px rgba(58, 95, 143, 0.699);
-  color: #fff;
-  transform: scale(1.1);
-  transition: ease-in-out 0.9s;
   font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid #231f20;
 }
 
 .act {
-  background: rgb(60, 60, 156);
-  border: 1px solid rgb(60, 60, 156);
-  color: #fff;
-  padding: 1.5em;
-  border-radius: 2em;
-  transition: ease-in-out 1s;
-  font-weight: 500;
-  cursor: pointer;
-  height: 90px;
-  width: 120px;
-}
-.act:hover {
-  background: #231f20;
-  border: 1px solid rgb(109, 109, 255);
-  box-shadow: 0px 0px 15px rgba(58, 95, 143, 0.699);
-  color: #fff;
-  transform: scale(1.1);
-  transition: ease-in-out 0.9s;
+  background-color: #231f20;
+  color: white;
 }
 
+.button {
+  background-color: white;
+  color: #231f20;
+}
+
+.button:hover, .act:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 550px) {
+  .button, .act {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 1em 2em;
+  }
+}

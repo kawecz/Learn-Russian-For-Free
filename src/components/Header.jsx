@@ -11,7 +11,7 @@ function Header() {
   return (
     <header className={styles.header}>
       <Burger ativo = {ativo} setAtivo = {setAtivo} />
-      <nav className={styles.nav}>
+      <nav className={`${styles.nav} ${ativo ? styles.navActive : ''}`}>
         <ul>
           <li>
             <button className={Button_styles.act}>Home</button>

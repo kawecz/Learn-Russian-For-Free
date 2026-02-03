@@ -1,19 +1,17 @@
-import styles from '../modules/Burger.module.css'
-function Burger({ativo,setAtivo}) {
+import styles from '../modules/Burger.module.css';
 
-    const handleClick = () => {
-        setAtivo(!ativo)
-        alert("Btn clicado")
-    }
-    return(
-        <>
-            <div className={`${styles.burger} ${ativo ? 'active' : ''}`} onClick={handleClick}>
-                <div className={styles.line1}></div>
-                <div className={styles.line2}></div>
-                <div className={styles.line3}></div>
-            </div>
-        </>
-    )
+function Burger({ ativo, setAtivo }) {
+  const handleClick = () => {
+    setAtivo(!ativo);
+  }
+  
+  return (
+    <div className={`${styles.burger} ${ativo ? styles.active : ''}`} onClick={handleClick}>
+      <div className={styles.line1}></div>
+      <div className={styles.line2}></div>
+      <div className={styles.line3}></div>
+    </div>
+  );
 }
 
-export default Burger
+export default Burger;

@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  min-height: 80px;
 }
 
 .nav ul {
@@ -27,18 +28,53 @@
   }
 }
 
-@media (max-width:550px) {
-  .nav {
-    display: none;
-  }
-
+@media (max-width: 550px) {
   .header {
     border-bottom: 1px solid black;
-    height: 40vh;
+    min-height: 80px;
+    position: relative;
+  }
+
+  .nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    z-index: 1000;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    padding-top: 80px;
+  }
+
+  .nav.navActive {
+    display: flex;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    gap: 1.5em;
+    width: 100%;
+    padding: 2em;
+  }
+
+  .nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav ul li button {
+    width: 80%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 1em;
   }
 
   .burger {
     display: block;
   }
 }
-

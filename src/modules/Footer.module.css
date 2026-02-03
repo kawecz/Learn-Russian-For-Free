@@ -9,6 +9,11 @@ footer {
     color: #fff;
 }
 
+footer > h1 {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
 footer > p {
     max-width: 450px;
     text-align: justify;
@@ -45,9 +50,9 @@ input[type="password"] {
 }
 
 
-.button:hover {
+/* .button:hover {
  
-}
+} */
 
 input[type="submit"] {
   background: #fff;
@@ -59,7 +64,7 @@ input[type="submit"] {
   transition: ease-in-out 1s;
   font-weight: 600;
   margin-bottom: 1em;
-  width: 200px;
+  max-width: 200px;
   outline: none;
   margin: 0 auto;
 }
@@ -72,3 +77,28 @@ input[type="submit"]:hover {
     transform: scale(1.1);
     transition: ease-in-out 0.9s;
 }
+
+/* MEDIA QUERIES FOR MAIN */
+
+/* START  iPhone 14 pro max - 430 x 932*/
+@media (max-width: 500px) {
+    input[type="email"] {
+    padding: 2em;
+    width: 350px;
+    outline: none;
+    font-size: 14pt;
+    border: 2px solid #002;
+    border-radius: 2em;
+}
+
+input[type="password"] {
+    padding: 2em;
+    width: 350px;
+    outline: none;
+    font-size: 14pt;
+    border: 2px solid #002;
+    border-radius: 2em;
+}
+}
+
+/* END  iPhone 14 pro max*/
